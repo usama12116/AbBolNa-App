@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_alignParentStart="true"
+        android:id="@+id/receiverNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="11sp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/receiverNameText"
+        android:id="@+id/chatReceiveMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="Text Messages"
+        android:textColor="@color/whiteTextColor"
+        android:paddingTop="3dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="3dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/chat_receive_background"
+        android:gravity="start"/>
+
+    <TextView
+        android:layout_alignParentStart="true"
+        android:id="@+id/receiveTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="11sp"
+        android:layout_below="@+id/chatReceiveMessage"
+        android:textColor="@color/colorAccent"/>
+
+</RelativeLayout>

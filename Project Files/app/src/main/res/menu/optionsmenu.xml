@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profileButton" android:title="My Profile"/>
+    <item android:id="@+id/profileSearchButton" android:title="Search Profile"/>
+    <item android:id="@+id/logoutButton" android:title="Sign Out"/>
+</menu>
